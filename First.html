@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВІТАльна вікторина</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("img/koza-fon.jpg");
+            background-size: cover;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+
+
+        img {
+            max-width: 580px;
+            height: 500px;
+            margin-bottom: 20px;
+            border: 5px solid #fffff;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .button {
+            text-decoration: none;
+            background-color: #654321;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 15px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .button:hover {
+            background-color: #004999;
+        }
+
+        .button:active {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    	<div class="photos">
+    	<img src="img/vita-smishna.jpg" alt="Хто хоче стати мільйонером" />
+        <img src="img/vita-stud.jpg" alt="">
+        <img src="img/vita-sadivnik.jpg" alt="">
+        <img src="img/pes.jpg" alt="">
+    	</div>
+        Обери зайве фото
+        <div class="buttons">
+            <a href="wrong1.html" class="button">Кнопка 1</a>
+            <a href="wrong1.html" class="button">Кнопка 2</a>
+            <a href="wrong1.html" class="button">Кнопка 3</a>
+            <a href="correct1.html" class="button">Кнопка 4</a>
+        </div>
+    </div>
+</body>
+</html>
